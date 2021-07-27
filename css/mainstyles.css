@@ -1,3 +1,129 @@
-main {
+
+/* Base Styles / Mobile View*/
+* {
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+
+
+body {
+    font-size: 25px;
+    padding: 1rem 0 1rem 0;
+    margin: 0 auto;
+    width: 100%;
+    color: #5c2018;
     font-family: 'Playfair Display', serif; 
 }
+.page-header {
+    background-color: #5c2018;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    padding: 20px 5px 20px 15px;
+    display: block;
+    color:#f3e0dc;
+}
+.main-navbar {
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #f3e0dc;
+    font-weight: bold;
+    list-style-type: none;
+}
+.main-navbar li  {
+    padding: 12px 0px;
+    margin: 6px;
+    background: #ffff;
+    text-align: center;
+    border-radius: 0.25rem;
+    color: #f3e0dc;
+    background-color: #d4a59a;
+}
+a {
+    color: #f3e0dc;
+    text-decoration: none;
+
+}
+/* /navbar*/
+
+
+/* introduction starts*/
+.intro {
+    margin-left: 20px;
+}
+
+h3 {
+    margin: auto;
+}
+/* /introduction ends*/
+
+
+/* gallery of works starts*/
+.gallery-heading {
+    color:#5c2018;
+    border-top: 1px solid #bc4639;
+    padding-top: 2rem;
+}
+.gallery {
+    margin-left: 20px; 
+}
+img {
+    text-align: center;
+   
+}
+.readmore-button {
+    background-color: #4285f4;
+    font-size: 16px;
+    margin-bottom: 2rem;
+}
+/* gallery of works ends*/
+/* bio starts*/
+
+.bio {
+    margin-left: 20px; 
+    border-top: 1px solid #bc4639;  
+}
+/* bio ends*/
+
+
+/* contact starts*/
+.contact-info {
+    background-color: #bc4639;
+
+}
+
+.email-button {
+    background-color: #4285f4;
+    font-size: 16px;
+    padding: .5rem;
+
+}
+/* /contact ends*/
+
+/* footer starts*/
+.footer {
+   font-size: 12px;
+   background-color: #5c2018;
+   color:#f3e0dc;
+    background: linear-gradient(#d4a59a, #5c2018);
+  
+}
+h4 {
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 0;
+}
+#back {
+    font-size: 13px;
+    color: black;
+    text-align: right;
+    margin-right: 10px;
+}
+
+
+/* /footer ends*/
