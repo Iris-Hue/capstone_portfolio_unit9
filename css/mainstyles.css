@@ -173,14 +173,19 @@ h4 {
     display: flex;
     flex-wrap: wrap;
 }
+
  h3 {
-    text-align: center;
+    
+    margin-top: 3rem;
+    font-size: 42px;
+    margin-left: 40px;
+    margin-right: 40%;
     
 }
     .berries {
         max-width: 100%;
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         border-radius: 6rem;
     }
 
@@ -191,10 +196,19 @@ h4 {
       }
       .gallery {
           display: flex;
+          flex-wrap: wrap;
+          justify-content: right;
       }
       .card-gallery {
-        flex-grow: 1;
-        flex-wrap: wrap;
+        flex-basis: 50%;
+      
+       
+      }
+      .card-parag {
+          width: 70%;
+      }
+      .readmore-button {
+      align-self: flex-end;
       }
 
 }
