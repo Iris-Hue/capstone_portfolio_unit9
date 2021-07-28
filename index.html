@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="path/to/drop.min.css">
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/mainstyles.css">
 </head>
@@ -17,14 +19,17 @@
 <body>
     <header class="page-header">
         <h2>Iris Heidebrecht</h2>
-        <nav>
+     
+        <details class="dropdown dropdown-right">
+        <summary>This has dropdown items</summary>
         <ul class="main-navbar">
             <li><a href="#">Home</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
+    </details>
+    
     </header>
 
     
@@ -102,14 +107,13 @@
 
   <!-- Add your site or application content here -->
   
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
 
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script src="js/script.js"></script>
+
+  <script src="path/to/details-element-polyfill.js"></script>
 
   <footer class="footer">
-    <h4>© 2021 Iris Heidebrecht <em>Something to Brag About Web Design.</em></h4>
+    <h4>© 2021 <em>Something to Brag About Web Design.</em></h4>
     <nav id="back"><a href="#">Back to Top</a></nav>
 
 </footer>
