@@ -5,7 +5,7 @@
     /*border: 1px solid red;*/
 }
 p {
-    text-indent: 10%;
+    /*text-indent: 10%;*/
     line-height: 1.2em;
 }
 
@@ -60,7 +60,7 @@ a {
 
 /* introduction starts*/
 .intro {
-    margin-left: 20px;
+    margin: 10px;
 }
 
 h3 {
@@ -69,10 +69,18 @@ h3 {
     text-align: center;
     padding-top: 20px;
 }
+.berries {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+}
 /* /introduction ends*/
 
 
 /* gallery of works starts*/
+.card-gallery {
+    text-align: center;
+}
 .gallery-heading {
     color:#5c2018;
     border-top: 1px solid #bc4639;
@@ -82,7 +90,6 @@ h3 {
     margin-left: 20px; 
 }
 img {
-    text-align: center;
     max-width: 100%;
     width: 200px;
     height: 200px;
@@ -103,7 +110,9 @@ img {
 /* bio starts*/
 
 .bio {
-    margin-left: 20px; 
+    text-indent: 10%;
+    text-align: center;
+    margin: 10px;
     border-top: 1px solid #bc4639;  
 }
 /* bio ends*/
@@ -111,11 +120,9 @@ img {
 
 /* contact starts*/
 .contact-info {
+    padding: 10px;
     background-color: #bc4639;
 
-}
-p {
-    padding-left: 20px;
 }
 
 .email-button {
@@ -136,24 +143,28 @@ p {
 /* footer starts*/
 .footer {
     display: flex;
+    padding-top: 20px;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 14px;
     color:#f3e0dc;
     background: linear-gradient(#d4a59a, #5c2018);
-  
+    height: 80px;
+    
+}
+.footer-heading {
+    
+}
+
+#back a {
+    font-size: 14px;
+   
 }
 h4 {
+    display: block;
     text-align: left;
     padding-top: 15px;
     margin-top: 0;
-}
-#back {
-    flex-basis: 60%;
-    align-self: flex-end;
-    font-size: 10px;
-    text-align: right;
-    margin-right: 10px;
-    padding-bottom: 1rem;
+   
 }
 /* /footer ends*/
 
