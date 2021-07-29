@@ -2,20 +2,24 @@
 /* Base Styles / Mobile View*/
 * {
     box-sizing: border-box;
-    /*border: 1px solid red;*/
+    border: 1px solid firebrick;
 }
 p {
     /*text-indent: 10%;*/
     line-height: 1.2em;
+   
 }
 
 body {
     font-size: 25px;
     margin: 0;
-    width: 100%;
-    height: 100%;
+
     color: #5c2018;
     font-family: 'Playfair Display', serif; 
+}
+main {
+    width: 100%;
+    height: 100%;
 }
 .page-header {
     background-color: #5c2018;
@@ -31,7 +35,7 @@ h2 {
     font-family: 'Great Vibes', cursive;
     padding: 20px 5px 5px 15px;
     display: block;
-    color:#f3e0dc;
+    color:#5c2018;
 }
 .main-navbar {
     text-align: center;
@@ -110,7 +114,7 @@ img {
 /* bio starts*/
 
 .bio {
-    text-indent: 10%;
+  
     text-align: center;
     margin: 10px;
     border-top: 1px solid #bc4639;  
@@ -148,7 +152,6 @@ img {
     font-size: 14px;
     color:#f3e0dc;
     background: linear-gradient(#d4a59a, #5c2018);
-    height: 80px;
     
 }
 .footer-heading {
@@ -173,53 +176,84 @@ h4 {
 
     .page-header {
         display: flex;
-        justify-content: flex-end;
     }  
     h2 {
-        display: flex;
-        justify-content: left;
-        flex-basis: 80%;
+       margin-left: 20px;
+        
     }
 .intro {
-    display: flex;
-    flex-wrap: wrap;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: start;
+}
+
+.welcome-page {
+    flex: 0 0 auto;
+    margin: 10px;
+}
+.welcome-parag {
+    width: 75%;
+    text-indent: 5%;
 }
 
  h3 {
-    
     margin-top: 3rem;
     font-size: 42px;
     margin-left: 40px;
     margin-right: 40%;
     
 }
-    .berries {
+    /*.berries {
         max-width: 100%;
         width: 200px;
-        height: 200px;
-        border-radius: 6rem;
-    }
+        height: 100px;
+
+    }*/
 
    
       img {
-          width: 400px;
-          height: 400px;
+          width: 350px;
+          height: 350px;
       }
       .gallery {
           display: flex;
           flex-wrap: wrap;
-          justify-content: right;
+          justify-content: center;
+          
       }
       .card-gallery {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
         flex-basis: 50%;
-      
+        justify-content: center;
+        align-items:center;
        
       }
       .card-parag {
-          width: 70%;
+          width: 60%;
+          align-items: center;
+        
       }
       .readmore-button {
-      align-self: flex-end;
+      align-self: center;
       }
+      p {
+        flex: 0 0 auto;
+        margin: 10px;
+        width: 75%;
+      }
+      .bio {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: start;
+      }
+   
 
 }

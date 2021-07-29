@@ -10,9 +10,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="js/drop.css">
 
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/mainstyles.css">
 </head>
 
@@ -20,7 +20,7 @@
     <header class="page-header">
         <h2>Iris Heidebrecht</h2>
      
-        <details class="dropdown dropdown-right">
+        <!--<details class="dropdown dropdown-right">
         <summary>Menu</summary>
         <ul class="main-navbar">
             <li><a href="#">Home</a></li>
@@ -28,7 +28,65 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </details>
+    </details>-->
+      <!-- Navigation / nav-wrapper component -->
+  <!-- Left-side hamburger markup -->
+  <!-- <header class="nav">
+    <nav class="nav-main">
+      <button class="nav-toggle" type="button" aria-expanded="false">
+        <div class="burger -squeeze -offset" type="button">
+          <span class="burger-lines"></span>
+        </div>
+      </button>
+      <ul class="nav-list" role="menu" aria-hidden="true">
+        <div class="nav-list__wrapper">
+          <li class="nav-list__item" role="none">
+            <a class="nav-logo" href="#">
+              <img class="nav-logo__image" id="logo" src="assets/images/logo.svg" alt="Logo">
+            </a>
+          </li>
+          <li class="nav-list__item" role="none">
+            <a class="nav-list__link" role="menuitem" href="https://github.com/obscuredetour/simply-nav">GitHub</a>
+          </li>
+          <li class="nav-list__item" role="none">
+            <a class="nav-list__link" role="menuitem" href="#features">Features</a>
+          </li>
+          <li class="nav-list__item" role="none">
+            <a class="nav-list__link" role="menuitem" href="#custom">Customizable</a>
+          </li>
+          <li class="nav-list__item" role="none">
+            <a class="nav-list__link" role="menuitem" href="#how-to-use">How to use</a>
+          </li>
+          <li class="nav-list__item" role="none">
+            <a class="nav-list__link" role="menuitem" href="#example">Example</a>
+          </li>
+        </div>
+      </ul>
+      <a class="nav-logo -mobile" href="#">
+        <img class="nav-logo__image" id="logo" src="assets/images/logo.svg" alt="Logo">
+      </a>
+    </nav>
+    <ul class="nav-list -mobile" role="menu" aria-hidden="true">
+      <div class="nav-list__wrapper">
+        <li class="nav-list__item" role="none">
+          <a class="nav-list__link" role="menuitem" href="https://github.com/obscuredetour/simply-nav">GitHub</a>
+        </li>
+        <li class="nav-list__item" role="none">
+          <a class="nav-list__link" role="menuitem" href="#features">Features</a>
+        </li>
+        <li class="nav-list__item" role="none">
+          <a class="nav-list__link" role="menuitem" href="#custom">Customizable</a>
+        </li>
+        <li class="nav-list__item" role="none">
+          <a class="nav-list__link" role="menuitem" href="#how-to-use">How to use</a>
+        </li>
+        <li class="nav-list__item" role="none">
+          <a class="nav-list__link" role="menuitem" href="#example">Example</a>
+        </li>
+      </div>
+      <div class="nav-overlay"></div>
+    </ul>
+  </header> -->
     
     </header>
 
@@ -36,7 +94,7 @@
     <section class="intro"> <!--introdution of the page -->
         <div class="welcome-page">
         <h3>Welcome to my Page.</h3>
-        <p class="welcome-parag">Please have a look at my gallery of projects I've completed recently.<br> Also, read my story section later on mid page.<br></p>
+        <p class="welcome-parag">Please have a look at my gallery of some of my recently completed projects.<br> Also, I hope you will read a short article I wrote in my story section later on mid page.<br>There will be a link to my full gallery of projects in the contact section.</p>
         <img class="berries" src="images/blueberries.jpeg" alt="basket of blueberries" />
         </div>
     </section>
@@ -46,52 +104,56 @@
     <section class="gallery" id="gallery">
         <div class="card-gallery">
         <img src="images/gallery.jpeg" alt="picture frames hanging on the wall" />
-        <h3>Mobile-First</h3>
+        <h4>Mobile-First</h3>
         <p class="card-parag">A responsive layout to achieve the different screen sizes, mobile, tablet and desktop.
             This webpage used HTML and CSS grid box modals for the layout of the thumbnail gallery.</p>
         <button class="readmore-button">
-            Read More
+            <ul>
+                <li><a href="https://github.com/Iris-Hue/mobile-first-project-2.git" id="website-link" class="social github">To veiw this Project</a></li>
+              </ul>
           </button>
-        <a href="https://github.com/Iris-Hue/mobile-first-project-2.git" id="website-link"></a>
     </div>
 
     <div class="card-gallery">
         <img src="images/gallery2.jpeg" alt="empty picture frames hanging on the wall" />
-        <h3>Online Registration Form</h3>
+        <h4>Online Registration Form</h3>
         <p class="card-parag"> Here is a simple web form for users to fill out to collect information.
             I used HTML elements to create labels to help the user fill the form out correctly.
             Some of the form fields used were: text input, checkboxes and a select menu that pops down.</p>
         <button class="readmore-button">
-            Read More
+            <ul>
+                <li><a href="https://github.com/Iris-Hue/online-reg-form-unit3.git" id="website-link" class="social github">To veiw this Project</a></li>
+              </ul>
           </button>
-        <a href="https://www.IrisHue.io/project#3" id="website-link"></a>
     </div>
 
     <div class="card-gallery">
         <img src="images/gallery3.jpeg" alt="picture frames hanging on the wall" />
-        <h3>Gameshow App</h3>
+        <h4>Gameshow App</h3>
         <p class="card-parag">An interactive word guessing game.
             Building this app is where I learned JavaScript.
             I had to create a JS function that randomly chooses a letter from the phase word.</p>
         <button class="readmore-button">
-            Read More
+            <ul>
+                <li><a href="https://github.com/Iris-Hue/gameshowapp_unit6.git" id="website-link" class="social github">To veiw this Project</a></li>
+              </ul>
           </button>
-        <a href="https://www.IrisHue.io/project#3" id="website-link"></a>
     </div>
     <div class="card-gallery">
         <img src="images/gallery4.jpeg" alt="picture frames hanging on the wall" />
-        <h3>Employee Directory</h3>
+        <h4>Employee Directory</h3>
         <p class="card-parag">I created this page to have all the employees' contact information along with their photos.
             This project used API(Application Programming Interface) usage and fetch to select the employee from the list.
             Then created a JS modal window that displays the employees' contact details.</p>
         <button class="readmore-button">
-            Read More
+            <ul>
+                <li><a href="https://github.com/Iris-Hue/employee_directory_unit8.git" id="website-link" class="social github">To veiw this Project</a></li>
+              </ul>
           </button>
-        <a href="https://www.IrisHue.io/project#3" id="website-link"></a>
     </div>
     </section>
     <section class="bio" id="about">
-        <h2>Biography.</h2>
+        <h2>Biography</h2>
         <p>
             Thanks for reading this far. Let me tell you a bit about myself. I moved from my small town Port Alberni to venture into the big city of Calgary which I worked as a hospital unit clerk. I decided to move back home to Port which had me looking for a new career. I choose Website Design and Development because I like to be creative; I also remember my first computer and entering code to play a game of stick hangman, which fascinated me. 
         </p>
@@ -103,6 +165,9 @@
         <button class="email-button">
             Send me an email: thisgale@emailme.cat
           </button>
+          <ul>
+            <li><a href="https://github.com/Iris-Hue" class="social github">Github Account</a></li>
+          </ul>
     </section>
 </main>
 
@@ -112,11 +177,11 @@
 
   <script src="js/script.js"></script>
 
-  <script src="js/drop.js"></script>
+  <script src="js/simply-nav.js"></script>
 
   <footer class="footer">
       <div class="footer-heading">
-    <h4>© 2021 <em>Something to Brag About Web Design.</em></h4>
+    <h5>© 2021, <em>Something to Brag About Web Design.</em></h4>
     <nav id="back"><a href="#">Back to Top</a></nav>
   </div> 
 </footer>
