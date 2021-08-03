@@ -169,14 +169,9 @@ body.menu-open .content-wrapper {
   -webkit-user-select: none;
 }
 
-@media screen and (max-width: 768px) {
-  .omni-mobile-menu {
-    display: block;
-  }
-
   .toggle-btn {
     display: flex;
   }
-}
+
 
 /*# sourceMappingURL=mobile-menu.css.map */

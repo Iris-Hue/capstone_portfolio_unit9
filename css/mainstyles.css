@@ -5,15 +5,12 @@
     /*border: 1px solid firebrick;*/
 }
 p {
-    /*text-indent: 10%;*/
     line-height: 1.2em;
-   
 }
 
 body {
     font-size: 25px;
     margin: 0;
-
     color: #5c2018;
     font-family: 'Playfair Display', serif; 
 }
@@ -35,7 +32,7 @@ h2 {
     font-family: 'Great Vibes', cursive;
     padding: 20px 5px 5px 15px;
     display: block;
-    color:#5c2018;
+    color: #f3e0dc;
 }
 .main-navbar {
     text-align: center;
@@ -106,16 +103,14 @@ img {
     background-color: #4285f4;
     font-size: 16px;
     margin-bottom: 2rem;
-  
- 
 }
 .readmore-button:hover {
     cursor: context-menu;
     background-color: light gray;
+}
 
     ul::marker {
         list-style-type: none ;
-    }
   }
 /* gallery of works ends*/
 /* bio starts*/
@@ -212,15 +207,8 @@ h4 {
     margin-left: 40px;
     margin-right: 40%;
     
-}
-    /*.berries {
-        max-width: 100%;
-        width: 200px;
-        height: 100px;
-
-    }*/
-
-   
+ }
+ 
       img {
           width: 350px;
           height: 350px;
