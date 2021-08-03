@@ -2,7 +2,7 @@
 /* Base Styles / Mobile View*/
 * {
     box-sizing: border-box;
-    border: 1px solid firebrick;
+    /*border: 1px solid firebrick;*/
 }
 p {
     /*text-indent: 10%;*/
@@ -73,10 +73,13 @@ h3 {
     text-align: center;
     padding-top: 20px;
 }
+
 .berries {
     max-width: 100%;
-    width: 200px;
+    width: 350px;
     height: 200px;
+    float: right;
+    border-radius: 2rem;
 }
 /* /introduction ends*/
 
@@ -103,12 +106,16 @@ img {
     background-color: #4285f4;
     font-size: 16px;
     margin-bottom: 2rem;
+  
  
 }
 .readmore-button:hover {
     cursor: context-menu;
     background-color: light gray;
 
+    ul::marker {
+        list-style-type: none ;
+    }
   }
 /* gallery of works ends*/
 /* bio starts*/
