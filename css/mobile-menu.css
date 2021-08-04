@@ -162,11 +162,15 @@ body.menu-open .content-wrapper {
   opacity: 1;
   overflow-x: hidden;
   transition: opacity 0s ease 0s;
+ 
 }
 .menu-open .content-wrapper {
   pointer-events: none;
   user-select: none;
   -webkit-user-select: none;
+}
+.omni-mobile-menu {
+  display: block;
 }
 
   .toggle-btn {
