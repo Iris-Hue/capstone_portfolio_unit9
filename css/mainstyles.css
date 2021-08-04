@@ -24,6 +24,9 @@ main {
     margin-left: -1.5;
 
 }
+.header-name {
+    color: #f3e0dc;
+}
 
 h2 {
     font-size: 42px;
@@ -32,7 +35,7 @@ h2 {
     font-family: 'Great Vibes', cursive;
     padding: 20px 5px 5px 15px;
     display: block;
-    color: #f3e0dc;
+    color: #5c2018;
 }
 .main-navbar {
     text-align: center;
@@ -77,6 +80,7 @@ h3 {
     height: 200px;
     float: right;
     border-radius: 2rem;
+    padding-bottom: 15px;
 }
 /* /introduction ends*/
 
@@ -97,32 +101,43 @@ img {
     max-width: 100%;
     width: 200px;
     height: 200px;
-    border-radius: 5%;
+    margin-top: 20px;
+    border-radius: 3%;
    
 }
 .readmore-button {
     background-color: #4285f4;
-    font-size: 10px;
+   color: #f3e0dc;
+    font-size: 14px;
+    padding: 15px;
     margin-bottom: 2rem;
-    border-radius: 0.25rem;
+    border-radius: 1.5%;
 
 }
 .readmore-button:hover {
     cursor: context-menu;
-    background-color: light gray;
+    color: #bc4639;
+    background-color: lightgray;
+    transform: translate(ease-in-out 5s);
 }
 
-    ul::marker {
-        list-style-type: none ;
-  }
+  
 /* gallery of works ends*/
 /* bio starts*/
 
 .bio {
-  
+   
     text-align: center;
     margin: 10px;
     border-top: 1px solid #bc4639;  
+}
+
+.aboutme-photo {
+    
+    max-width: 100%;
+    width: 350px;
+    height: 200px;
+    border-radius: 2rem;
 }
 /* bio ends*/
 
@@ -131,8 +146,6 @@ img {
 .contact-info {
     padding: 10px;
     background-color: #bc4639;
-    
-
 }
 
 .email-button {
@@ -142,6 +155,7 @@ img {
     border-radius: 0.25rem;
     width: 60%;
     margin-bottom: 10px;
+   margin-left: 20%;
    
 }
 .email-button:hover {
@@ -169,8 +183,7 @@ img {
 }
 h4 {
     display: block;
-    text-align: left;
-    padding-top: 15px;
+    padding-top: 10px;
     margin-top: 0;
    
 }
@@ -205,7 +218,7 @@ h5 {
 .welcome-parag {
     flex-grow: 1;
     width: 75%;
-    text-align: center;
+    text-align: left;
     text-indent: 5%;
 
 }
@@ -270,10 +283,33 @@ h5 {
         align-content: start;
         
       }
+      .email-button {
+          margin-left: 10%;
+      }
+      .footer {
+          display: flex;
+      }
+      #back a {
+        justify-content:right;
+      }
       .menu-open .omni-mobile-menu {
       width: 10%;
       height: 70%;
       }
+
+      body .omni-mobile-menu {
+        left: calc(100vw - 10vw);
+    }
+    body.menu-open .toggle-btn {
+        right: auto;
+        left: calc(100vw - 15vw)
+        
+    }
+    body.menu-open .content-wrapper {
+        box-shadow: 0 0 5px 5px rgb(0 0 0 / 20%);
+        left: -10vw;
+        overflow: hidden;
+    }
    
 
 }
