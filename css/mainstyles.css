@@ -268,9 +268,13 @@ h5 {
         justify-content: space-between;
           
       }
+      .footer-heading {
+          display: flex;
+          justify-content: space-between;
+      }
 
       .backtotop {
-          flex-grow: 2;
+          flex-grow: 1;
       }
       .menu-open .omni-mobile-menu {
       width: 10%;
