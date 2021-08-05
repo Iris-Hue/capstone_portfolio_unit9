@@ -2,7 +2,7 @@
 /* Base Styles / Mobile View*/
 * {
     box-sizing: border-box;
-    /*border: 1px solid firebrick;*/
+ 
 }
 p {
     line-height: 1.2em;
@@ -37,7 +37,6 @@ h2 {
     display: block;
     color: #5c2018;
 }
-
 /* /navbar*/
 
 
@@ -98,11 +97,10 @@ img {
     color: #bc4639;
     background-color: lightgray;
 }
-
-  
 /* gallery of works ends*/
-/* bio starts*/
 
+
+/* bio starts*/
 .bio {
    
     text-align: center;
@@ -127,18 +125,18 @@ img {
 .email-button {
     background-color: #4285f4;
     font-size: 16px;
-    padding: .5rem;
+    padding: 1%;
     border-radius: 0.25rem;
-    width: 60%;
+    width: 20%;
     margin-bottom: 10px;
-   margin-left: 20%;
+   margin-top: 10px;
    
 }
 .email-button:hover {
     background-color:  lightgrey;
-    
 }
 /* /contact ends*/
+
 
 /* footer starts*/
 .footer {
@@ -155,18 +153,20 @@ img {
 
 #back a {
     font-size: 14px;
-
 }
+
 h4 {
     display: block;
     padding-top: 10px;
     margin-top: 0;
-   
 }
+
 h5 {
     margin-bottom: 10px;
 }
 /* /footer ends*/
+
+
 
 /* Desktop media*/
 @media (min-width: 1024px) {
@@ -183,8 +183,7 @@ h5 {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
-        
+        align-items: center;    
 }
 
 .welcome-page {
@@ -196,7 +195,6 @@ h5 {
     width: 75%;
     text-align: left;
     text-indent: 5%;
-
 }
 .berries {
     flex-basis: 15%;
@@ -209,7 +207,6 @@ h5 {
     padding-bottom: 15px;
     margin-left: 20px;
     margin-right: 10px;
-    
  }
  
       img {
@@ -219,8 +216,7 @@ h5 {
       .gallery {
           display: flex;
           flex-wrap: wrap;
-          justify-content: center;
-          
+          justify-content: center; 
       }
       .card-gallery {
         display: flex;
@@ -228,16 +224,16 @@ h5 {
         flex-wrap: wrap;
         flex-basis: 50%;
         align-items: center;
-       
       }
       .card-parag {
           width: 60%;
           flex-grow: 2;
       }
+
       .readmore-button {
       align-self: center;
-      
       }
+
       p {
         flex: 0 0 auto;
         margin: 10px;
@@ -258,23 +254,16 @@ h5 {
         justify-content: space-between;
         align-items: center;
         align-content: start;
-        
       }
-      .email-button {
-          margin-left: 10%;
-      }
+      
       .footer {
         display: flex;
-        justify-content: space-between;
-          
+        justify-content: space-between; 
       }
       .footer-heading {
           display: flex;
+          width: 100%;
           justify-content: space-between;
-      }
-
-      .backtotop {
-          flex-grow: 1;
       }
       .menu-open .omni-mobile-menu {
       width: 10%;
@@ -294,6 +283,4 @@ h5 {
         left: -10vw;
         overflow: hidden;
     }
-   
-
 }
