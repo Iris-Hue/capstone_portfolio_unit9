@@ -20,8 +20,8 @@ main {
 }
 .page-header {
     background-color: #5c2018;
-    max-width: (100% + 3em);
-    margin-left: -1.5;
+    max-width: 100%;
+    max-height: 100%;
 
 }
 .header-name {
@@ -37,28 +37,7 @@ h2 {
     display: block;
     color: #5c2018;
 }
-.main-navbar {
-    text-align: center;
-    padding: 10px;
-    text-transform: uppercase;
-    color: #f3e0dc;
-    font-weight: bold;
-    list-style-type: none;
-}
-.main-navbar li  {
-    padding: 12px 0px;
-    margin: 15px;
-    text-align: center;
-    border-radius: 0.75rem;
-    color: #f3e0dc;
-    background-color: #d4a59a;
-}
-a {
-    color: #f3e0dc;
-    text-decoration: none;
-    font-size: 20px;
 
-}
 /* /navbar*/
 
 
@@ -88,10 +67,10 @@ h3 {
 /* gallery of works starts*/
 .card-gallery {
     text-align: center;
+    justify-content: space-between;
 }
 .gallery-heading {
     color:#5c2018;
-    border-top: 1px solid #bc4639;
     padding-top: 2rem;
 }
 .gallery {
@@ -118,7 +97,6 @@ img {
     cursor: context-menu;
     color: #bc4639;
     background-color: lightgray;
-    transform: translate(ease-in-out 5s);
 }
 
   
@@ -128,12 +106,10 @@ img {
 .bio {
    
     text-align: center;
-    margin: 10px;
-    border-top: 1px solid #bc4639;  
+    margin: 10px; 
 }
 
 .aboutme-photo {
-    
     max-width: 100%;
     width: 350px;
     height: 200px;
@@ -256,6 +232,7 @@ h5 {
       }
       .card-parag {
           width: 60%;
+          flex-grow: 2;
       }
       .readmore-button {
       align-self: center;
@@ -287,10 +264,13 @@ h5 {
           margin-left: 10%;
       }
       .footer {
-          display: flex;
+        display: flex;
+        justify-content: space-between;
+          
       }
-      #back a {
-        justify-content:right;
+
+      .backtotop {
+          flex-grow: 2;
       }
       .menu-open .omni-mobile-menu {
       width: 10%;
